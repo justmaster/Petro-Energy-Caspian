@@ -61,7 +61,6 @@ export const Contacts = () => {
               <PaddedContainer className="contacts">
                 <a
                   href={location}
-                  target="_blank"
                   style={{ textDecoration: "none" }}
                 >
                   <Btn className="bgBright">Google Maps</Btn>

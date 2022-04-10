@@ -4,16 +4,12 @@ import {
   Header,
   HeaderElement,
   Body,
-  ProductCard,
-  Fade1,
-  Fade2
 } from "./desktop_styles/ProductsStyles";
 import {
   CircularContainer,
   Dash,
   Subheading,
   Paragraph,
-  Btn
 } from "./desktop_styles/Components";
 import { useParams } from "react-router-dom";
 import InvertColorsIcon from "@material-ui/icons/InvertColors";
@@ -58,9 +54,15 @@ export const Products = () => {
         </HeaderElement>
       </Header>
       <Body>
-        <ProductFile firstColor={"red"} secondColor={"blue"} mainColor={"orange"} title={"А80"} link={"https://drive.google.com/file/d/1Z8k-UflWumwUULA4UzG_-PqGhPoqaIEZ/view?usp=sharing"} button={button} textColor={"white"} textSize={40} x="100" y="200" />
-        <ProductFile firstColor={"blue"} secondColor={"blue"} mainColor={"yellow"} title={"Сла́ва Украї́ні"} link={"https://www.youtube.com/watch?v=lu8m5FA2nL8"} button={"#StandWithUkraine"} textColor={"black"} textSize={25} x="65" y="200" />
-        <ProductFile firstColor={"red"} secondColor={"blue"} mainColor={"orange"} title={"Gazoil"} link={"https://drive.google.com/file/d/1foDGhbwKmiZT2AIUu6tvhP-PahafhdJN/view?usp=sharing"} button={button} textColor={"white"} textSize={40} x="90" y="200" />
+        <ProductFile firstColor={"crimson"} secondColor={"brown"} mainColor={"orange"} title={"А80"} 
+                    link={"https://drive.google.com/file/d/1Z8k-UflWumwUULA4UzG_-PqGhPoqaIEZ/view?usp=sharing"} 
+                    button={button} textColor={"white"} textSize={40} x="110" y="200" />
+        <ProductFile firstColor={"blue"} secondColor={"blue"} mainColor={"yellow"} title={"Сла́ва Украї́ні"} 
+                    link={"https://www.youtube.com/watch?v=lu8m5FA2nL8"} 
+                    button={"#StandWithUkraine"} textColor={"black"} textSize={25} x="65" y="200" />
+        <ProductFile firstColor={"red"} secondColor={"grey"} mainColor={"brown"} title={"Gazoil"} 
+                    link={"https://drive.google.com/file/d/1foDGhbwKmiZT2AIUu6tvhP-PahafhdJN/view?usp=sharing"} 
+                    button={button} textColor={"white"} textSize={40} x="90" y="200" />
       </Body>
     </Wrapper>
   );

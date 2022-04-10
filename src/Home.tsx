@@ -25,6 +25,7 @@ export const Home = () => {
 
   useEffect(() => {
     !id && history.push("/en/home");
+    // eslint-disable-next-line
   }, []);
 
   return (

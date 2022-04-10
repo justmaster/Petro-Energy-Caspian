@@ -27,9 +27,6 @@ import { Burger } from "../Menu/Burger";
 import { Menu } from "../Menu/Menu";
 
 const dummyHeading = "PETRO ENERGY CASPIAN EAST";
-const dummyParagraph_ir =
-  "شما چه لعنتی فقط لعنتی در مورد من گفتی ، ای کوچولو می دانم که من کلاس برتر من را در مأموریت های نیروی دریایی فارغ التحصیل شده ام ، و من در حملات پنهانی متعددی به القوائد درگیر شده ام ، و بیش از 300 مورد قتل تایید شده دارم. من در جنگ گوریل آموزش دیده ام و بهترین تک تیرانداز در کل نیروهای مسلح ایالات متحده هستم.";
-
 const structure = ["HOME", "ABOUT", "PARTNERS", "PRODUCTS", "CONTACTS"];
 
 const structure_ir = ["شروع", "درباره ما", "شرکا", "محصولات", "اطلاعات تماس"];

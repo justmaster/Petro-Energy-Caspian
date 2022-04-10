@@ -1,10 +1,6 @@
-import { randomBytes } from 'crypto';
+
 import React from 'react';
 import {
-    Wrapper,
-    Header,
-    HeaderElement,
-    Body,
     ProductCard,
     Fade1,
     Fade2
@@ -75,7 +71,7 @@ function ProductFile({
                         </svg>
                         <circle cx="150" cy="350" r="200" fill={mainColor} />
                         <text
-                        fontFamily="Railway"
+                        fontFamily="Raleway"
                         fontWeight={700}
                         fontSize={textSize}
                         fill={textColor}
@@ -87,7 +83,7 @@ function ProductFile({
                         </text>
                     </g>
                     </svg>
-                    <a href={link} target="_blank">
+                    <a href={link} >
                     <Btn className="bgBright" style={{ width: "50%" }}>
                         {button}
                     </Btn>
