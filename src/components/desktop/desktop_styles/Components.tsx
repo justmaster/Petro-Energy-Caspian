@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Btn = styled.div`
   width: 30%;
   background: #f9ec3e;
-  heigth: auto;
+  height: auto;
   padding: 1em;
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@ export const Heading = styled.h1`
   color: black;
   font-size: 70px;
   max-width: 70%;
-  // background: orange;
+  /* background: orange; */
   &.bgDark {
     color: white;
   }
@@ -196,4 +196,5 @@ export const PaddedContainer = styled.div`
     &.fa {
       min-height: 180px;
     }
-`;
+  }
+`

@@ -90,7 +90,6 @@ export const Landing = () => {
   const carousel_elements = id === "en" ? displays : displays_ir;
   const [home, about, partners, products, contacts] =
     id === "en" ? structure : structure_ir;
-
   const handleClick = async () => {
     const nextLang = id === "en" ? "ir" : "en";
     history.push(`/${nextLang}/home`);
@@ -131,6 +130,8 @@ export const Landing = () => {
               </LanguageSelect>
             </HeaderElement>
           </Header>
+
+
           <Body>
             <BodyElement>
               <PaddedContainer>

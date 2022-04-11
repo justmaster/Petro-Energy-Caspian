@@ -37,19 +37,24 @@ export const About = () => {
     <>
       <Wrapper id="ABOUT">
         <Body>
+
           <BodyElement className="left">
+
             <BodySlice className="filler top">
               <CircularContainer>
                 <PersonPinCircleIcon style={{ color: "black" }} />
               </CircularContainer>
               <Dash></Dash>
             </BodySlice>
+
             <BodySlice className="top titleHolder">
               <div className="divider">
                 <Subheading>{heading}</Subheading>
               </div>
             </BodySlice>
+
             <BodySlice className="filler two"></BodySlice>
+
             <BodySlice className="textHolder">
               <PaddedContainer className="about">
                 <Subsubheading>{subheading}</Subsubheading>
@@ -63,6 +68,7 @@ export const About = () => {
                 </a>
               </PaddedContainer>
             </BodySlice>
+            
           </BodyElement>
           <BodyElement className="right"></BodyElement>
         </Body>

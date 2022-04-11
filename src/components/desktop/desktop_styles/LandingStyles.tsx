@@ -1,9 +1,9 @@
 import styled from "styled-components";
-
+import landingBack from "../../../assets/landingBack.jpeg"
 export const Wrapper = styled.section`
   width: 100vw;
   height: auto;
-  background: url(https://i.imgur.com/rMKd246.jpg) center center no-repeat;
+  background: url(${landingBack}) center center no-repeat;
   background-size: cover;
   overflow: hidden;
   z-index: 1;
@@ -70,7 +70,7 @@ export const HeaderElement = styled.div`
 
 export const LanguageSelect = styled.h3`
   width: auto;
-  heigth: auto;
+  height: auto;
   color: white;
   opacity: 0.5;
   font-family: "Open Sans", montserrat;
@@ -188,14 +188,11 @@ export const Footer = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  // background: gray;
-  @media (max-width: 1500px) 
-`;
+`
 
 export const FooterElement = styled.div`
   width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
-  // background: purple;
 `;
