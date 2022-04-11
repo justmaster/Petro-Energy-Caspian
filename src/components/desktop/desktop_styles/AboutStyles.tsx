@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import aboutBack from "../../../assets/aboutBack.png"
 export const Wrapper = styled.section`
   width: 100vw;
   min-height: 60vh;
@@ -28,11 +28,10 @@ export const BodyElement = styled.section`
     flex-wrap: wrap;
     align-items: center;
     background: #f9ec3e;
-    // background: cyan;
   }
 
   &.right {
-    background: url(https://i.imgur.com/NJCNO9L.png) center center no-repeat;
+    background: url(${aboutBack}) center center no-repeat;
     background-size: cover;
   }
 
@@ -51,7 +50,6 @@ export const BodyElement = styled.section`
 export const BodySlice = styled.div`
   width: 80%;
   height: auto;
-  // background: purple;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -59,7 +57,6 @@ export const BodySlice = styled.div`
   &.filler {
     width: 150px;
     height: 150px;
-    // background: orange;
   }
 
   &.two {
